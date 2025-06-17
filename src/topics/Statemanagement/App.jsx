@@ -5,9 +5,17 @@ function App() {
   return (
     <div>
       <h2>Count: {count}</h2>
-     <button onClick={() => setCount(count + 1) }>click</button>
+     <button onClick={() => setCount(count + 1)}>➕ Increment</button>
+      <button onClick={() => setCount(count - 1)}>➖ Decrement</button>
+      <button onClick={() => setCount(0)}>🔄 Reset</button>
     </div>
   )
 }
 
-export default App
+export default App;
+
+//***  ✅ 2. Add Item to Array
+// const [items, setItems] = useState([]); uestate is noy that eouhjkmckm fofmmjbgbbj
+// setItems([...items, "New Item"]);
+
+
