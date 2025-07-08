@@ -15,7 +15,7 @@ function App() {
 export default App;
 
 //***  ✅ 2. Add Item to Array
-// const [items, setItems] = useState([]); uestate is noy that eouhjkmckm fofmmjbgbbj
+// const [items, setItems] = useState([]); 
 // setItems([...items, "New Item"]);
 
 
